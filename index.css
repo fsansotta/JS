@@ -10,8 +10,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-   /*  min-height: 100vh; */
+    align-items: center; 
     background: #131313;
 }
 
@@ -32,8 +31,8 @@ header{
 }
 
 header #escudoCai{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 .container {
     display: flex;
@@ -92,7 +91,7 @@ header #escudoCai{
 .container .card:hover .imgBx {
     top: 0%;
     transform: translateY(-25%);
-    /* bug  */
+
 }
 
 .container .card .imgBx img {
@@ -173,7 +172,7 @@ header #escudoCai{
     cursor: pointer;
 }
 
-.container .card .contentBx .size span:hover {  /* other bug */
+.container .card .contentBx .size span:hover { 
     background: #B90000;
 }
 
@@ -225,4 +224,17 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#btnFinalizar, #btnVaciarCarrito{   
+    margin-top: 5px;
+}
+
+#custom-message{
+    color: #af0303;
+    margin-top: 10px;
+}
+
+.swal2-confirm{
+   background-color: #dc3545 !important;
 }

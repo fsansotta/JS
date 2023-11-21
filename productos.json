@@ -1,0 +1,7 @@
+   
+   [{ "id": 1, "nombre": "Titular 2023", "precio": 45000, "imagen": "./imagenes/IMG-20231031-WA0194.png"},
+    { "id": 2, "nombre": "Suplente 2023", "precio": 40000, "imagen": "./imagenes/IMG-20231031-WA0195.png"},
+    { "id": 3, "nombre": "Suplente 2021", "precio": 30000, "imagen": "./imagenes/IMG-20231031-WA0192.png"},
+    { "id": 4, "nombre": "Titular 94", "precio": 38000, "imagen": "./imagenes/IMG-20231031-WA0193.png"},
+    { "id": 5, "nombre": "Suplente 2016", "precio": 20000, "imagen": "./imagenes/IMG-20231031-WA0196.png"}
+]
